@@ -20,15 +20,15 @@ Module Atmail :
 4. Set cookie by web developer console<br>
     #javascript:void(document.cookie="cookiename=value");
  
-5. XHR POST Request 
-    #xhr= new XMLHttpRequest()
-    #xhr.open("POST", url, true)
-    #xhr.send(data)
+5. XHR POST Request <br>
+    #xhr= new XMLHttpRequest()<br>
+    #xhr.open("POST", url, true)<br>
+    #xhr.send(data)<br>
     
-6. XHR GET Request 
-    #xhr= new XMLHttpRequest()
-    #xhr.open("GET", url, true)
-    #xhr.send()
+6. XHR GET Request <br>
+    #xhr= new XMLHttpRequest()<br>
+    #xhr.open("GET", url, true)<br>
+    #xhr.send()<br>
 
     
     
