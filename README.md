@@ -3,7 +3,7 @@ OSWE-cheat sheet module by module with updated syllabus:
 
 Module Atmail :
 
-1. Steal cookie payload (Httponly flag should be disable in set-Cookie headers)<br>
+1. Access cookie payload (Httponly flag should be disable in set-Cookie headers)<br>
     #<script>alert(document.cookie);</script>
     
 2. Run Python Server in python3<br>
