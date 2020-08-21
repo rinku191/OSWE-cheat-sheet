@@ -17,7 +17,9 @@ Module Atmail :
     #}<br>
     #addImage();<br>
     
-4. 
-    
+4. Set cookie by web developer console
+    #javascript:void(document.cookie="cookiename=value");
+ 
+5. 
     
     
