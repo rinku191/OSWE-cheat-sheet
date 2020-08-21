@@ -1,5 +1,5 @@
 # OSWE-cheat-sheet
-OSWE-cheat sheet module by module with updated syllabus
+OSWE-cheat sheet module by module with updated syllabus:
 
 Module Atmail :
 
