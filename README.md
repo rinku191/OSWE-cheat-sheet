@@ -40,7 +40,7 @@ Module : Atmail :
     #tail –f /var/log/mysql/mysql.log   /***Access MySQL Log ***/<br>
     
  2. Enable PHP verbose error
-    #nano /etc/php5/apache2/php.ini /*** uncomment or add below line /<br>
-        #display_errors = On
+    #nano /etc/php5/apache2/php.ini /*** uncomment or add below line ***/<br>
+        #display_errors = On <br>
     #systemctl restart apache2    /*** Restart Apache ***/<br>
     
