@@ -30,5 +30,12 @@ Module : Atmail :
     #xhr.open("GET", url, true)<br>
     #xhr.send()<br>
 
- Module : ATutor Authentication Bypass and RCE :
+ Module : ATutor Authentication Bypass and RCE :<br>
+ 1. Enable MySQL DB logging<br>
+    #nano /etc/mysql/my.cnf /*** uncomment or add below line /<br>
+        #[mysqld]<br>
+        #general_log_file = /var/log/mysql/mysql.log<br>
+        #general_log = 1<br>
+    #systemctl restart mysql / Restart MySQL /<br>
+    #tail –f /var/log/mysql/mysql.log   /***Access MySQL Log ***/<br>
     
