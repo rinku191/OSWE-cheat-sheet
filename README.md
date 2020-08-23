@@ -50,6 +50,9 @@ Module : Atmail (PHP):
 4. Dump information about varaible<br>
     #var_dump($var);<br>
     
+5. Serach for fiunction in code
+    #grep -rnw "function name(" ./ --color
+    
 5. Check magic quote enable<br>
     #var_dump(get_magic_quotes_gpc());  /** for enable value is 1 **/
     
