@@ -56,3 +56,6 @@ Module : Atmail (PHP):
 5. Check magic quote enable<br>
     #var_dump(get_magic_quotes_gpc());  /** for enable value is 1 **/<br>
     
+6. MYSQL query without space<br>
+    #mysql> select/**/1; <br>
+    
