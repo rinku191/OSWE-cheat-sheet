@@ -61,5 +61,22 @@ Module : Atmail (PHP):
     
 7. Extract first character of MySql version in case of blind MySQL query<br>
     #mysql> select ascii(substring((select/**/version()),1,1))=53;  /** use with "or" boolean **/<br>
+    
+8. Create ZIp file using Python2 <br>
+    #!/usr/bin/python <br>
+    #import zipfile <br>
+    #from cStringIO import StringIO<br>
+
+    #def build_zip():<br>
+        #f = StringIO()<br>
+        #z = zipfile.ZipFile(f, 'w', zipfile.ZIP_DEFLATED)<br>
+        #z.writestr('folder/file.txt', 'secret')<br>
+        #z.close()<br>
+        #zip = open('zip.zip','wb')<br>
+        #print f.getvalue()<br>
+        #zip.write(f.getvalue())<br>
+        #zip.close()<br>
+    
+    #build_zip()<br>
 
     
