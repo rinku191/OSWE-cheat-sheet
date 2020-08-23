@@ -1,7 +1,7 @@
 # OSWE-cheat-sheet
 OSWE-cheat sheet module by module with updated syllabus:
 
-Module : Atmail :
+Module : Atmail (PHP):
 
 1. Access and alert cookie payload (Httponly flag should be disable in set-Cookie headers)<br>
     #<script>alert(document.cookie);</script>
@@ -30,7 +30,7 @@ Module : Atmail :
     #xhr.open("GET", url, true)<br>
     #xhr.send()<br>
 
- Module : ATutor Authentication Bypass and RCE :<br>
+ Module : ATutor Authentication Bypass and RCE (PHP) :<br>
  1. Enable MySQL DB logging<br>
     #nano /etc/mysql/my.cnf         // uncomment or add below line<br>
             #[mysqld]<br>
@@ -49,4 +49,7 @@ Module : Atmail :
     
 4. Dump information about varaible<br>
     #var_dump($var);<br>
+    
+5. Check magic quote enable<br>
+    #var_dump(get_magic_quotes_gpc());<br>  /** enable=1 **/
     
