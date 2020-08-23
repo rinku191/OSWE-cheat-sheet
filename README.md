@@ -44,3 +44,9 @@ Module : Atmail :
         #display_errors = On <br>
     #systemctl restart apache2     //Restart Apache<br>
     
+3. Print statement in PHP<br>
+    #echo "any message";<br>
+    
+4. Dump information about varaible<br>
+    #var_dump($var);<br>
+    
