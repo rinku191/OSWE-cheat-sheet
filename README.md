@@ -51,5 +51,5 @@ Module : Atmail (PHP):
     #var_dump($var);<br>
     
 5. Check magic quote enable<br>
-    #var_dump(get_magic_quotes_gpc());<br>  /** enable=1 **/
+    #var_dump(get_magic_quotes_gpc());  /** for enable value is 1 **/
     
