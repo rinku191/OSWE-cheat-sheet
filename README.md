@@ -60,7 +60,7 @@ Module : Atmail (PHP):
     #mysql> select/**/1; <br>
     
 7. Extract first character of MySql version in case of blind MySQL query<br>
-    #mysql> select ascii(substring((select/**/version()),1,1))=53;  /** use with "or" boolean **/<br>
+    #mysql> select ascii(substring((select version()),1,1))=53;  /** use with "or" boolean **/<br>
     
 8. Create ZIp file using Python2 <br>
     #!/usr/bin/python <br>
