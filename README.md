@@ -79,4 +79,8 @@ Module : Atmail (PHP):
     
     #build_zip()<br>
 
+Module : PHP Type Juggling Vulnerability : 
+1.  Configure SMTP Server<br>
+    #sudo python3 -m smtpd -n -c DebuggingServer 0.0.0.0:25 & /* & for run in background */<br>
+
     
