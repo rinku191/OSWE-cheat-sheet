@@ -83,7 +83,7 @@ Module : PHP Type Juggling Vulnerability :
 1.  Configure SMTP Server<br>
     #sudo python3 -m smtpd -n -c DebuggingServer 0.0.0.0:25 & /* & for run in background */<br>
     
-Module : ManageEngine Application Manager AMUserResourcesSyncServlet SQL Injection & RCE : <br>
+Module : ManageEngine Application Manager AMUserResourcesSyncServlet SQL(Postgres) Injection & RCE : <br>
 1.  web.xml determine how URLs mapped<br>
 2.  Tool JD-GUI use to decompile java<br>
 3.  Find SQL injection vulnerability using below regular expression<br>
