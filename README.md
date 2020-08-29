@@ -97,7 +97,7 @@ Module : ManageEngine Application Manager AMUserResourcesSyncServlet SQL(Postgre
         select convert_from(decode('QVdBRQ==', 'base64'), 'utf-8');<br>
 8.  Using CHR and String Concatenation<br>
         SELECT CHR(65) || CHR(87) || CHR(65) || CHR(69);<br>
-9.  Accessing the File System in postgres<b>
+9.  Accessing the File System in postgres<br>
         COPY <table_name> from <file_name><br>
         COPY <table_name> to <file_name><br>
         
