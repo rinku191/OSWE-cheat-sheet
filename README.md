@@ -100,6 +100,8 @@ Module : ManageEngine Application Manager AMUserResourcesSyncServlet SQL(Postgre
 9.  Accessing the File System in postgres<br>
         COPY <table_name> from <file_name><br>
         COPY <table_name> to <file_name><br>
+10. PostgreSQL Extensions<br>
+        CREATE OR REPLACE FUNCTION test(text) RETURNS void AS 'FILENAME', 'test' LANGUAGE 'C' STRICT;
         
     
 
