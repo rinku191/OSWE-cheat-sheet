@@ -82,5 +82,25 @@ Module : Atmail (PHP):
 Module : PHP Type Juggling Vulnerability : 
 1.  Configure SMTP Server<br>
     #sudo python3 -m smtpd -n -c DebuggingServer 0.0.0.0:25 & /* & for run in background */<br>
+    
+Module : ManageEngine Application Manager AMUserResourcesSyncServlet SQL Injection & RCE : <br>
+    #web.xml determine how URLs mapped<br>
+    #Tool JD-GUI use to decompile java<br>
+    #Find SQL injection vulnerability using below regular expression<br>
+        ^.*?query.*?select.*?<br>
+    #Enable postgres logging by uncommenting below line in postgresql.conf file<br>
+        log_statement = 'all'<br>
+    #postgre cli
+        psql -U username -p 15432  /* p=port, /<br>
+    # Alternative of single quote(') is duble doller sign($$)<br>
+    #decode string in postgres<br>
+        select convert_from(decode('QVdBRQ==', 'base64'), 'utf-8');<br>
+    #Using CHR and String Concatenation<br>
+        SELECT CHR(65) || CHR(87) || CHR(65) || CHR(69);<br>
+    #Accessing the File System in postgres<b>
+        COPY <table_name> from <file_name><br>
+        COPY <table_name> to <file_name><br>
+        
+    
 
     
