@@ -33,9 +33,9 @@ Module : Atmail (PHP):
  Module : ATutor Authentication Bypass and RCE (PHP) :<br>
  1. Enable MySQL DB logging<br>
     nano /etc/mysql/my.cnf         // uncomment or add below line<br>
-            #[mysqld]<br>
-            #general_log_file = /var/log/mysql/mysql.log<br>
-            #general_log = 1<br>
+            [mysqld]<br>
+            general_log_file = /var/log/mysql/mysql.log<br>
+            general_log = 1<br>
     systemctl restart mysql        //Restart MySQL<br>
     tail –f /var/log/mysql/mysql.log   //Access MySQL Log<br>
     
@@ -81,7 +81,7 @@ Module : Atmail (PHP):
 
 Module : PHP Type Juggling Vulnerability : 
 1.  Configure SMTP Server<br>
-    #sudo python3 -m smtpd -n -c DebuggingServer 0.0.0.0:25 & /* & for run in background */<br>
+    sudo python3 -m smtpd -n -c DebuggingServer 0.0.0.0:25 & /* & for run in background */<br>
     
 Module : ManageEngine Application Manager AMUserResourcesSyncServlet SQL(Postgres) Injection & RCE : <br>
 1.  web.xml determine how URLs mapped<br>
