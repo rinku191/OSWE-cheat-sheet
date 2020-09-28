@@ -122,3 +122,7 @@ Module : DotNetNuke Cookie Deserialization RCE
 4. Java Serialization & Deserialization method
     Deserialization : inputObjectStream.readObject() and Serialization: outputObjectStream.writeObject()
     
+Module : ERPNext Authentication Bypass and Server Side Template Injection :
+1. Run SMTP Server on Kali 
+    sudo python3 -m smtpd -n -c DebuggingServer 0.0.0.0:25
+    
