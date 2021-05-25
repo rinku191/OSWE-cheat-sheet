@@ -1,5 +1,5 @@
 # OSWE-cheat-sheet
-OSWE-cheat sheet module by module with updated syllabus:
+OSWE-cheat sheet module by module short notes for quick revision for exam:
 
 Module : Atmail (PHP):
 
